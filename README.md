@@ -18,7 +18,7 @@ Este es un proyecto de Preguntas Frecuentes creado con **HTML** y **CSS**. La ap
 
 ## Vista Previa del Proyecto
 
-![Vista Previa del Proyecto](img/vista.png.png)
+![Vista Previa del Proyecto](img/vista.png)
 
 ## Cómo Ejecutarlo Localmente
 
