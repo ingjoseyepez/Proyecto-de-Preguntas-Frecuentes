@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body { 
+    background-color: #F8FAFC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    padding: 50px 0px;
+    justify-content: center;
+    background-color: #FFF;
+}
+
+header h1 {
+    font-weight: 600;
+    font-size: 2.25rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+section {
+    background-color: #F8FAFC;
+}
+
+.artUno, .artDos {
+    width: 45%;
+    text-align: justify;
+    padding: 20px 0;
+}
+
+.artUno {
+    margin-top: 20px;
+    border-bottom: 2px solid rgba(210, 213, 218, 0.4);
+}
+
+.artUno h2, .artDos h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+
+.artUno p, .artDos p{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding: 10px 0; 
+} 
+
+.artUno ol li, .artDos ul li {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 2px 0;
+}
+
+section a {
+    text-decoration: none;
+    color: #4E80EE;
+}
+@media (max-width: 640px) {
+    header h1 {
+        font-size: 1.75rem;
+    }
+
+    header p {
+        font-size: 0.875rem;
+    }
+
+    .artUno, .artDos {
+        width: 85%; 
+    }
+
+    .artUno h2, .artDos h2 {
+        font-size: 1.25rem;
+    }
+
+    .artUno p, .artDos p, .artUno ol li, .artDos ul li {
+        font-size: 0.875rem;
+    }
+}
